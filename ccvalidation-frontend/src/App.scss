@@ -1,0 +1,68 @@
+.App {
+  * {
+    font-family: 'Urbanist';
+  }
+
+  .material-icons-round {
+    font-family: 'Material Icons Round';
+    margin-right: 5px;
+  }
+
+  text-align: center;
+}
+
+h1 {
+  margin: 40px 0;
+}
+
+input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 20px;
+  min-width: 300px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  background: skyblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-message {
+  color: red;
+}
+
+.result {
+  border-radius: 5px;
+  color: white;
+  margin: 50px auto;
+  padding: 40px;
+  width: 70%;
+
+  &.valid {
+    background-color: mediumseagreen;
+  }
+
+  &.invalid {
+    background-color: salmon;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
