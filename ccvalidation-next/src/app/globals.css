@@ -59,7 +59,8 @@ h1 {
 }
 
 .result {
-  border-radius: 5px;
+  border-radius: 16px;
+  box-shadow: 0 20px 24px -4px #1018281a;
   color: #fff;
   min-height: 50%;
 }
