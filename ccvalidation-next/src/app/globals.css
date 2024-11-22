@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Figtree:ital,wght@0,300..900;1,300..900&family=Song+Myung&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fff2e3;
+  --foreground: #171717;
+  --cream: #fff2e3;
+  --green: #005459;
+  --teal: #05c9bf;
+  --pink: #f54fb0;
+  --orange: #ff9663;
+  --gray: #343c44;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--green);
+  background: var(--cream);
+  font-family: 'Figtree', Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background: var(--green);
+  color: var(--cream);
+}
+
+h1 {
+  color: var(--green);
+  font-family: 'Song Myung';
+}
+
+.MuiButton-root {
+  background: var(--pink);
+  border-radius: 32px;
+  color: #fff;
+  font-family: 'Figtree', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 14px 18px;
+  text-transform: none;
+}
+
+.MuiInput-root::after {
+  border-color: var(--gray);
+}
+
+.error-message {
+  color: var(--orange);
+}
+
+.result {
+  border-radius: 5px;
+  color: #fff;
+  min-height: 50%;
+}
+
+.result.valid {
+  background: var(--teal);
+}
+
+.result.invalid {
+  background: var(--orange);
+}
