@@ -63,6 +63,7 @@ h1 {
   box-shadow: 0 20px 24px -4px #1018281a;
   color: #fff;
   min-height: 50%;
+  width: 100%;
 }
 
 .result.valid {
