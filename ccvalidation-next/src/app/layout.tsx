@@ -21,7 +21,7 @@ export default function RootLayout({
         className="antialiased"
       >
         <div className="min-h-screen flex flex-col justify-between">
-          <div className="py-10 px-8 sm:px-20 ">
+          <div className="py-10 px-8 sm:px-20 flex flex-col grow">
             <div className="header">
               <Image
                 src="/logo.png"
@@ -31,7 +31,7 @@ export default function RootLayout({
                 priority
               />
             </div>
-            <div className="p-8 pb-20 gap-16 sm:p-20">
+            <div className="p-8 pb-20 gap-16 sm:p-20 flex grow justify-center">
               {children}
             </div>
           </div>

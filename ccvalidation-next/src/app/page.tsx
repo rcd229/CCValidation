@@ -50,9 +50,9 @@ export default function Home() {
 
   return (
     <Grid container spacing={10}>
-      <Grid item xs={12} md={6} className="flex flex-col">
+      <Grid item xs={12} md={6} className="flex flex-col justify-center">
         <h1 className="text-5xl mb-6">Credit Card Validation</h1>
-        <p className="text-md pb-8">Enter a credit card number below and click "Validate" or hit Enter. Results will appear on the right.</p>
+        <p className="text-md pb-8">Enter a credit card number below and click "Validate" or hit Enter.</p>
         <Input
           id="cc-input"
           startAdornment={
